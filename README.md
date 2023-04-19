@@ -1,6 +1,6 @@
 # Fox Game
 
-Fox Game is a fun and interactive browser-based game created during a Frontend Masters workshop. The game is developed using HTML, CSS, and JavaScript. Players must take care of a virtual fox by managing its needs, such as hunger, sleep, and playtime, to keep it happy and healthy.
+Fox Game is a fun and interactive browser-based game created during a [Frontend Masters workshop](https://frontendmasters.com/courses/front-end-game/). The game is developed using HTML, CSS, and JavaScript. Players must take care of a virtual fox by managing its needs, such as hunger, sleep, and playtime, to keep it happy and healthy.
 
 ## Table of Contents
 
