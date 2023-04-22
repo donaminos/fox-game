@@ -6,6 +6,7 @@ Fox Game is a fun and interactive browser-based game created during a [Frontend 
 
 - [Getting Started](#getting-started)
 - [How to Play](#how-to-play)
+- [Implementation details](/doc/implementation-details.md)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -22,3 +23,11 @@ To play the Fox Game, simply open the `index.html` file in a modern web browser.
 ### Installation
 
 1. Clone the repository or download the project as a ZIP file:
+
+## How to play
+
+TBD
+
+## Implementations details
+
+[Doc here](/doc/implementation-details.md)
