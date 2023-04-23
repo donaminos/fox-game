@@ -3,6 +3,19 @@
   margin: 0;
 }
 
+:root {
+  --color-green: #2df0ac;
+  --color-red: #d81434;
+  --gradient-grey: linear-gradient(
+    -45deg,
+    #a0a0a0 0%,
+    #f0f0f0 25%,
+    #fff 50%,
+    #f0f0f0 75%,
+    #b0b0b0 100%
+  );
+}
+
 body {
   background-color: #16143c;
   background-image: url(/public/assets/bg/Canvas.png);
@@ -13,7 +26,124 @@ body {
 
 #content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.board {
+  border: 20px solid var(--gradient-grey);
+  padding: 50px 45px 0;
+  border-radius: 25%;
+  background-image: var(--gradient-grey);
+  min-width: 600px;
+  min-height: 600px;
+}
+
+.conditions {
+  position: relative;
+  border: 25px solid #ffb001;
+  border-radius: 25%;
+  width: fit-content;
+  overflow: hidden;
+}
+.conditions img {
+  display: none;
+}
+
+.conditions img[data-active] {
+  display: block;
+}
+
+.states {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  min-height: 70px;
+  width: 100%;
+  background-color: #000;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.icon {
+  background-color: transparent;
+  background-image: url(/public/assets/bg/ICONS/NotSelected.png);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.icon[data-active] {
+  background-image: url(/public/assets/bg/ICONS/Selected.png);
+}
+
+.icon:hover {
+  background-image: url(/public/assets/bg/ICONS/Hover.png);
+}
+
+.fish {
+  background-position: 0 0;
+}
+
+.poop {
+  background-position: -162px 0;
+}
+.weather {
+  background-position: -324px 0;
+}
+
+.buttons {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  width: 250px;
+  border-radius: 50px;
+  padding: 5px 0;
+  background-image: linear-gradient(to top, #a4a4a4 50%, #c7c7c7 50%);
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  cursor: pointer;
+}
+
+.right {
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.center {
+  border-radius: 50%;
+}
+.left {
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.button:hover {
+  background-color: var(--color-green);
+}
+.button:active {
+  background-color: var(--color-red);
 }

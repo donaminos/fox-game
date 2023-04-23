@@ -10,6 +10,33 @@
   <body>
     <div id="content">
       <h1>Fox Game</h1>
+      <div class="board">
+        <div class="conditions">
+          <img
+            data-show
+            data-active
+            src="/public/assets/bg/conditions/DAY.png"
+          />
+          <img data-show src="/public/assets/bg/conditions/NIGHT.png" />
+          <img data-show src="/public/assets/bg/conditions/RAINY.png" />
+          <img data-show src="/public/assets/bg/conditions/DEAD.png" />
+
+          <div class="states">
+            <div class="icons">
+              <div class="icon fish" data-active></div>
+              <div class="icon poop"></div>
+              <div class="icon weather"></div>
+            </div>
+          </div>
+        </div>
+        <div class="buttons">
+          <div class="wrapper">
+            <div role="button" class="button left"></div>
+            <div role="button" class="button center"></div>
+            <div role="button" class="button right"></div>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="./main.ts"></script>
   </body>
