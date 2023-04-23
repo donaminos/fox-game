@@ -17,4 +17,6 @@ This enhancement will not only improve code quality and readability but also hel
 
 ## Style
 
-In this implementation, Iwe have chosen to recreate the styling using fewer background images as a means to practice and experiment with CSS. While the outcome might not be a pixel-perfect reproduction of the original design, this approach allows for more hands-on experience with CSS techniques and principles. The primary goal is to explore different styling possibilities, rather than striving for design perfection.
+In this implementation, I have chosen to recreate the styling using fewer background images as a means to practice and experiment with CSS. While the outcome might not be a pixel-perfect reproduction of the original design, this approach allows for more hands-on experience with CSS techniques and principles.
+
+The primary goal is to explore different styling possibilities, rather than striving for design perfection.
