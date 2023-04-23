@@ -22,6 +22,8 @@ body {
   color: white;
   height: 100%;
   width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 4px;
 }
 
 #content {
@@ -33,6 +35,7 @@ body {
 }
 
 .board {
+  position: relative;
   border: 20px solid var(--gradient-grey);
   padding: 50px 45px 0;
   border-radius: 25%;
@@ -41,12 +44,28 @@ body {
   min-height: 600px;
 }
 
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 20px;
+  background-color: #8a2be2;
+  color: #fff;
+  padding: 22px;
+  border-radius: 5px;
+  z-index: 2;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+}
+
 .conditions {
   position: relative;
   border: 25px solid #ffb001;
   border-radius: 25%;
   width: fit-content;
   overflow: hidden;
+  margin-top: 8px;
 }
 .conditions img {
   display: none;
